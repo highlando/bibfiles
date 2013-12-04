@@ -105,13 +105,14 @@
   language = {German}
 }
 
-@PHDTHESIS{Emm01,
-  author = {Emmrich, Etienne},
-  title = {{Analysis of time discretization of incompressible Navier-Stokes
-	problem. (Analysis von Zeitdiskretisierungen des inkompressiblen
-	Navier-Stokes-Problems)}},
-  school = {Technische Universit{\"a}t Berlin, Institut f\"ur Mathematik},
+@BOOK{Emm01,
+  title = {{Analysis von Zeitdiskretisierungen des inkompressiblen Navier-Stokes-Problems}},
+  publisher = {Cuvillier Verlag},
   year = {2001},
+  author = {Emmrich, Etienne},
+  address = {Göttingen, Germany},
+  note = {{Analysis of time discretizations of the incompressible Navier-Stokes
+	problem}},
   abstract = {{The text deals with a rigorous mathematical analysis of implicit
 	time discretizations for incompressible Navier-Stokes equations.
 	The major focus is spent to the implicit Euler scheme and to a second-order
@@ -123,7 +124,18 @@
 	of time discretizations for incompressible flows, the book provides
 	a well-founded and comprehensive resource for various issues related
 	to the subject (i.e. solvability, stability, convergence, error estimation).}},
-  language = {German}
+  classmath = {{*76-02 (Research monographs (fluid mechanics)) 76M20 (Finite difference
+	methods) 76D05 (Navier-Stokes equations (fluid dynamics)) 65M12 (Stability
+	and convergence of numerical methods (IVP of PDE)) 65M06 (Finite
+	difference methods (IVP of PDE)) }},
+  keywords = {{incompressible Navier-Stokes equations; implicit time discretization;
+	implicit Euler scheme; second-order backward differencing scheme;
+	convergence; higher-order error estimates; regularity; functional
+	analysis; stability}},
+  language = {German},
+  reviewer = {{Michael Sch\"afer (Darmstadt)}},
+  school = {{G\"ottingen: Cuvillier Verlag. Berlin: TU Berlin, Fakult\"at II-Mathematik
+	und Naturwissenschaften (Diss.), viii, 206 S. }}
 }
 
 @ARTICLE{EmmM13,
@@ -143,13 +155,14 @@
 }
 
 @BOOK{For99,
-  title = {Analysis {$2$}. {D}ifferentialrechnung im {${\bf R}^{n}$}},
-  publisher = {Verlag Vieweg, Braunschweig},
+  title = {Analysis {$2$}. {D}ifferentialrechnung im {${\mathbb R}^{n}$}},
+  publisher = {Verlag Vieweg},
   year = {1977},
   author = {Forster, Otto},
+  volume = {31},
   pages = {viii+163},
-  note = {Gew{\"o}hnliche Differentialgleichungen, Rororo Vieweg: Mathematik
-	Grundkurs, No. 31},
+  series = {Mathematik Grundkurs},
+  address = {Braunschweig, Germany,w},
   isbn = {3-499-27031-5},
   mrclass = {26-01 (34-01)},
   mrnumber = {0492102 (58 \#11255)}
@@ -377,6 +390,32 @@
   mrclass = {47.00 (47.48)},
   mrnumber = {0203473 (34 \#3324)},
   mrreviewer = {L. de Branges}
+}
+
+@ARTICLE{KunM11a,
+  author = {Kunkel, Peter and Mehrmann, Volker},
+  title = {Formal adjoints of linear {DAE} operators and their role in optimal
+	control},
+  journal = {Electron. J. Linear Algebra },
+  year = {2011},
+  volume = {22},
+  pages = {672-693},
+  abstract = {{Summary: For regular strangeness-free linear Differential-Algebraic
+	Equations (DAEs) the definition of an adjoint DAE is straightforward.
+	This definition can be formally extended to general linear DAEs.
+	In this paper, we analyze the properties of the formal adjoints and
+	their implications in solving linear-quadratic optimal control problems
+	with DAE constraints.}},
+  classmath = {{*49N10 (Linear-quadratic optimal control problems) 93C10 (Nonlinear
+	control systems) 93C15 (Control systems governed by ODE) 93B52 (Feedback
+	control) 65L80 (Methods for differential-algebraic equations) 49K15
+	(Optimal control problems with ODE (nec./ suff.)) 34H05 (ODE in connection
+	with control problems) }},
+  file = {:/home/heiland/moi/papers/control/KunM11_formalAdjoints.pdf:PDF},
+  keywords = {{differential-algebraic equation; adjoint operator; adjoint pair;
+	formal adjoint pair; optimal control; necessary optimality condition;
+	formal necessary optimality condition}},
+  language = {English}
 }
 
 @BOOK{KunM06,
