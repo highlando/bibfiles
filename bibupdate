@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd ~/work/misc/bibfiles
+git ci 'auto bib update'
+git pull
+git push
+git status
+
