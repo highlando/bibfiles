@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/work/misc/bibfiles
+cd ~/work/misc/bibfiles/mybibfiles
 git ci 'auto bib update'
 git pull
 git push
