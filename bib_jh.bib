@@ -124,7 +124,7 @@
 @String { SIAMSciStat         = {{SIAM} J. Sci. Statist. Comput.} }
 @String { SIGNUM              = {{ACM} {SIGNUM} Newslett.} }
 @String { SoftPracExp         = {Software Prac. Experience} }
-@String { Springer            = {Springer-Verlag} }
+@String { Springer            = {Springer} }
 @String { StatScience         = {Statist. Sci.} }
 @String { TablesAidsComp      = {Math. Tables Aids Comput.} }
 @String { Techno              = {Technometrics} }
@@ -136,6 +136,39 @@
 @String { WHFreeman           = {W.H. Freeman and Co.} }
 @String { ZAngewMathMech      = {Z. Angew. Math. Mech.} }
 @String { ZAngewMathPhys      = {Z. Angew. Math. Phys.} }
+
+@Article{Cim12,
+  Title                    = {Survey of State-Dependent Riccati Equation in Nonlinear Optimal Feedback Control Synthesis
+},
+  Author                   = {{\c{C}}imen, Tayfun},
+  Journal                  = {Journal of Guidance, Control, and Dynamics
+},
+  Year                     = {2012},
+  Number                   = {4
+},
+  Pages                    = {1025 - 1047},
+  Volume                   = {35},
+
+  Doi                      = {10.2514/1.55821
+},
+  File                     = {cim12_Survey_State-Dependent_Riccati_Nonlinear_Optimal_Feedback_Control_Synthesis.pdf:cim12_Survey_State-Dependent_Riccati_Nonlinear_Optimal_Feedback_Control_Synthesis.pdf:PDF}
+}
+
+@Article{Cim10,
+  Title                    = {Systematic and effective design of nonlinear feedback controllers via the state-dependent {R}iccati equation ({SDRE}) method},
+  Author                   = {Tayfun {\c{C}}imen},
+  Journal                  = {Annual Reviews in Control },
+  Year                     = {2010},
+  Number                   = {1},
+  Pages                    = {32 - 51},
+  Volume                   = {34},
+
+  Doi                      = {http://dx.doi.org/10.1016/j.arcontrol.2010.03.001},
+  File                     = {Cim10_systematic_effective_design_nonlinear_feedback_controllers_SDRE.pdf:Cim10_systematic_effective_design_nonlinear_feedback_controllers_SDRE.pdf:PDF},
+  ISSN                     = {1367-5788},
+  Keywords                 = {Control applications},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S1367578810000052}
+}
 
 @Article{AbeT90,
   Title                    = {{On some control problems in fluid mechanics}},
@@ -213,10 +246,33 @@
   Url                      = {http://dx.doi.org/10.1002/zamm.201200125}
 }
 
+@Article{AltH15,
+  Title                    = {Finite Element Decomposition and Minimal Extension for Flow Equations},
+  Author                   = {Robert Altmann and Jan Heiland},
+  Journal                  = {ESAIM: M2AN},
+  Year                     = {2015},
+
+  Doi                      = {10.1051/m2an/2015029},
+  Url                      = {http://dx.doi.org/10.1051/m2an/2015029}
+}
+
+@TechReport{AltH14ppt,
+  Title                    = {Regularization of Constrained {PDE}s of Semi-Explicit Structure},
+  Author                   = {R. Altmann and J. Heiland},
+  Institution              = {Institut f\"ur Mathematik, Technische Universit\"at Berlin},
+  Year                     = {2014},
+
+  Address                  = {Germany},
+  Number                   = {2014--05},
+  Type                     = {Preprint},
+
+  File                     = {:/homes/numerik/heiland/work/papers/althxx/AltHXX.pdf:PDF}
+}
+
 @TechReport{AltH13ppt,
   Title                    = {Finite Element Decomposition and Minimal Extension for Flow Equations},
   Author                   = {R. Altmann and J. Heiland},
-  Institution              = {Technische Universit{\"a}t Berlin},
+  Institution              = {Institut f\"ur Mathematik, Technische Universit\"at Berlin},
   Year                     = {2013},
 
   Address                  = {Germany},
@@ -224,6 +280,24 @@
   Type                     = {Preprint},
 
   File                     = {:/homes/numerik/heiland/work/papers/althxx/AltHXX.pdf:PDF}
+}
+
+@Article{AndIW13,
+  Title                    = {{Stabilizability of linear time-varying systems.}},
+  Author                   = {Brian D.O. {Anderson} and Achim {Ilchmann} and Fabian R. {Wirth}},
+  Journal                  = SCL,
+  Year                     = {2013},
+  Number                   = {9},
+  Pages                    = {747--755},
+  Volume                   = {62},
+
+  Doi                      = {10.1016/j.sysconle.2013.05.003},
+  Fjournal                 = {{Systems \& Control Letters}},
+  ISSN                     = {0167-6911},
+  Language                 = {English},
+  Msc2010                  = {93D15 49N10 93C05 93D20},
+  Publisher                = {Elsevier, Amsterdam},
+  Zbl                      = {1280.93068}
 }
 
 @Book{AscMR95,
@@ -273,7 +347,7 @@
   Type                     = {Preprint},
 
   Comment                  = {& Ordner SKM},
-  File                     = {:home/heiland/moi/papers/control/dae/Bac03.pdf:PDF},
+  File                     = {Bac03.pdf:Bac03.pdf:PDF},
   Timestamp                = {2011.11.15}
 }
 
@@ -288,7 +362,7 @@
 
   Doi                      = {10.1137/090778146},
   File                     = {BadT11_badra_takahashi_stabil_parab_nonl_systems_nse.pdf:BadT11_badra_takahashi_stabil_parab_nonl_systems_nse.pdf:PDF},
-  Fjournal                 = SIAMContOpt,
+  Fjournal                 = {#SIAMContOpt#},
   ISSN                     = {0363-0129; 1095-7138/e},
   Language                 = {English},
   Msc2010                  = {93D15 35B40 35Q30 76D05 76D07 76D55 93B52 93C20 35Q93},
@@ -341,8 +415,26 @@
 
   Abstract                 = {The authors study linear differential-algebraic equations of the form $$A(t)(D(t) x(t))'+ B(t) x(t)= q(t)\tag 1$$ and their adjoints $$-D^*(t)(A^*(t) y(t))'+ B^*(t) y(t)= p(t).\tag 2$$ Under suitable conditions on the matrix functions $A(t)$, $B(t)$, $D(t)$ it is shown that (1) is index $\mu$ tractable if and only if (2) is so for $\mu= 1,2$. The concept of index $\mu$ tractability admits to derive an inherent underlying ordinary differential equation (ODE) to (1). With the help that the ODE unique solubility of (1) can be guaranteed and its perturbation index can be determined. Finally, the authors show that (1) is of index $\mu$ if and only if (2) possesses the same index for $\mu= 1,2$.},
   Comment                  = {& Ordner SKM},
-  File                     = {:home/heiland/moi/papers/control/dae/BalM02.ps:PostScript},
+  File                     = {BalM02.ps:BalM02.ps:PostScript},
   Timestamp                = {2011.11.15}
+}
+
+@Article{BanLT07,
+  Title                    = {Nonlinear feedback controllers and compensators: a state-dependent Riccati equation approach},
+  Author                   = {Banks, H.T. and Lewis, B.M. and Tran, H.T.},
+  Journal                  = CompOptimApp,
+  Year                     = {2007},
+  Number                   = {2},
+  Pages                    = {177-218},
+  Volume                   = {37},
+
+  Doi                      = {10.1007/s10589-007-9015-2},
+  File                     = {BanLT07_Banks_Lewis_Tran__nonlinear_fb_contr_compensator_SDRE.pdf:sdre/BanLT07_Banks_Lewis_Tran__nonlinear_fb_contr_compensator_SDRE.pdf:PDF},
+  ISSN                     = {0926-6003},
+  Keywords                 = {Nonlinear feedback control; Nonlinear compensator; State-dependent Riccati equations},
+  Language                 = {English},
+  Publisher                = {Kluwer Academic Publishers-Plenum Publishers},
+  Url                      = {http://dx.doi.org/10.1007/s10589-007-9015-2}
 }
 
 @Book{Bar93,
@@ -359,6 +451,21 @@
   Keywords                 = {{optimal control; nonsmooth and nonconvex optimization; nonlinear operators of monotone type; variational inequalities of elliptic type; semilinear elliptic equations; obstacle problem; Signorini problem; Cauchy problem; nonlinear accretive operators in Banach space; nonlinear diffusion equations; nonlinear hyperbolic equations; semilinear parabolic equations}},
   Language                 = {English},
   Reviewer                 = {{V.Arnautu (Ia\c{s}i)}}
+}
+
+@InCollection{BauHS15,
+  Title                    = {Discrete Input/Output Maps and their Relation to Proper Orthogonal Decomposition},
+  Author                   = {Baumann, Manuel and Heiland, Jan and Schmidt, Michael},
+  Booktitle                = {Numerical Algebra, Matrix Theory, Differential-Algebraic Equations and Control Theory},
+  Publisher                = {Springer International Publishing},
+  Year                     = {2015},
+  Editor                   = {Benner, Peter and Bollhöfer, Matthias and Kressner, Daniel and Mehl, Christian and Stykel, Tatjana},
+  Pages                    = {585-608},
+
+  Doi                      = {10.1007/978-3-319-15260-8_21},
+  ISBN                     = {978-3-319-15259-2},
+  Language                 = {English},
+  Url                      = {http://dx.doi.org/10.1007/978-3-319-15260-8_21}
 }
 
 @Article{BenER03,
@@ -379,8 +486,37 @@
   Zbl                      = {1043.35014}
 }
 
+@InCollection{BenH15,
+  Title                    = {{LQG}-{B}alanced {T}runcation Low-Order Controller for Stabilization of Laminar Flows},
+  Author                   = {Benner, Peter and Heiland, Jan},
+  Booktitle                = {Active Flow and Combustion Control 2014},
+  Publisher                = {Springer, Berlin},
+  Year                     = {2015},
+  Editor                   = {King, Rudibert},
+  Pages                    = {365-379},
+  Series                   = {Notes on Numerical Fluid Mechanics and Multidisciplinary Design},
+  Volume                   = {127},
+
+  Doi                      = {10.1007/978-3-319-11967-0_22},
+  ISBN                     = {978-3-319-11966-3},
+  Keywords                 = {Navier-Stokes equation; model order reduction; stabilization; output feedback},
+  Language                 = {English},
+  Url                      = {http://dx.doi.org/10.1007/978-3-319-11967-0_22}
+}
+
+@TechReport{BenH15_ppt,
+  Title                    = {Time-dependent Dirichlet Conditions in Finite Element Discretizations},
+  Author                   = {Peter Benner and Jan Heiland},
+  Year                     = {2015},
+  Note                     = {Available from \url{http://www.mpi-magdeburg.mpg.de/preprints/}},
+  Number                   = {MPIMD/15-03},
+  Type                     = {Max Planck Institute Magdeburg Preprint},
+
+  File                     = {:/home/heiland/work/papers/BenH15_timedepDiribcs/bcbv_ppt.pdf:PDF}
+}
+
 @TechReport{BenH14_ppt,
-  Title                    = {LQG-Balanced Truncation Low-Order Controller for Stabilization of Laminar Flows},
+  Title                    = {{LQG}-{B}alanced {T}runcation Low-Order Controller for Stabilization of Laminar Flows},
   Author                   = {Peter Benner and Jan Heiland},
   Year                     = {2014},
   Month                    = {March},
@@ -442,11 +578,12 @@
 }
 
 @Book{BenDDM93,
-  Title                    = {Representation and control of infinite-dimensional systems. {V}ol. {II}},
+  Title                    = {Representation and Control of Infinite-Dimensional Systems. {V}ol. {II}},
   Author                   = {Bensoussan, Alain and Da Prato, Giuseppe and Delfour, Michel C. and Mitter, Sanjoy K.},
   Publisher                = {Birkh\"auser},
-  Address                  = {Basel, Switzerland},
   Year                     = {1993},
+
+  Address                  = {Basel, Switzerland},
 
   Doi                      = {10.1007/978-1-4612-2750-2},
   ISBN                     = {0-8176-3642-0},
@@ -458,10 +595,12 @@
 }
 
 @Book{BenDDM92,
-  Title                    = {Representation and control of infinite-dimensional systems. {V}ol. {I}},
+  Title                    = {Representation and Control of Infinite-Dimensional Systems. {V}ol. {I}},
   Author                   = {Bensoussan, Alain and Da Prato, Giuseppe and Delfour, Michel C. and Mitter, Sanjoy K.},
   Publisher                = {Birkh\"auser},
   Year                     = {1992},
+
+  Address                  = {Basel, Switzerland},
 
   ISBN                     = {0-8176-3641-2},
   Mrclass                  = {49-02 (34H05 47D03 47N70 49J27 49K27 93C25)},
@@ -543,7 +682,7 @@
   Year                     = {2007},
 
   Address                  = {Berlin, Germany},
-  Edition                  = {4th revised and extended ed.},
+  Edition                  = {4th revised and extended},
 
   Doi                      = {10.1007/978-3-540-72450-6},
   ISBN                     = {978-3-540-72449-0/pbk},
@@ -551,6 +690,22 @@
   Msc2010                  = {65N30 65-02 65F10 65N22 74S05},
   Pages                    = {xviii + 357},
   Zbl                      = {1180.65146}
+}
+
+@Article{BreK14,
+  Title                    = {{R}iccati-Based Feedback Control of the Monodomain Equations with the {F}itzhugh--{N}agumo Model},
+  Author                   = {Tobias Breiten and Karl Kunisch},
+  Journal                  = SIAMContOpt,
+  Year                     = {2014},
+  Number                   = {6},
+  Pages                    = {4057-4081},
+  Volume                   = {52},
+
+  Doi                      = {10.1137/140964552},
+  Eprint                   = { http://dx.doi.org/10.1137/140964552 
+},
+  Url                      = { http://dx.doi.org/10.1137/140964552 
+}
 }
 
 @Book{Bre11,
@@ -568,6 +723,23 @@
   Keywords                 = {{linear operator; unbounded operator; weak topology, reflexive space; Hille-Yosida theory; Sobolev space; evolution problem}},
   Language                 = {English},
   Reviewer                 = {{Vicen\c tiu D. R\u adulescu (Craiova)}}
+}
+
+@Article{BurLO03,
+  Title                    = {Optimization and Pseudospectra, with Applications to Robust Stability},
+  Author                   = {J. V. Burke and A. S. Lewis. and M. L. Overton},
+  Journal                  = {SIAM Journal on Matrix Analysis and Applications},
+  Year                     = {2003},
+  Number                   = {1},
+  Pages                    = {80-104},
+  Volume                   = {25},
+
+  Doi                      = {10.1137/S0895479802402818},
+  Eprint                   = { http://dx.doi.org/10.1137/S0895479802402818 
+},
+  File                     = {BurLO03_Overton_optimization_pseudospectra_robust_stability.pdf:BurLO03_Overton_optimization_pseudospectra_robust_stability.pdf:PDF},
+  Url                      = { http://dx.doi.org/10.1137/S0895479802402818 
+}
 }
 
 @Article{Cam87,
@@ -660,6 +832,18 @@
   Publisher                = {Cambridge Univ Press}
 }
 
+@Article{ChiALK11,
+  Title                    = {An overview of the proper generalized decomposition with applications in computational rheology},
+  Author                   = {Chinesta, Francisco and Ammar, Amine and Leygue, Adrien and Keunings, Roland},
+  Journal                  = {J. Non-Newtonian Fluid Mech.},
+  Year                     = {2011},
+  Number                   = {11},
+  Pages                    = {578--592},
+  Volume                   = {166},
+
+  Publisher                = {Elsevier}
+}
+
 @Article{ChoR13,
   Title                    = {Optimal control of linearized compressible {N}avier-{S}tokes equations},
   Author                   = {Chowdhury,Shirshendu and Ramaswamy,Mythily},
@@ -697,6 +881,16 @@
   Zbl                      = {1063.78018}
 }
 
+@Article{CroR73,
+  Title                    = {Conforming and nonconforming finite element methods for solving the stationary {S}tokes equations. {I}},
+  Author                   = {Crouzeix, M. and Raviart, P.-A.},
+  Journal                  = {Rev. Franc. Automat. Inform. Rech Operat},
+  Year                     = {1973},
+  Number                   = {R-3},
+  Pages                    = {33--75},
+  Volume                   = {7}
+}
+
 @Article{DeDV00,
   Title                    = {{A multilinear singular value decomposition}},
   Author                   = {Lieven {De Lathauwer} and Bart {De Moor} and Joos {Vandewalle}},
@@ -708,7 +902,7 @@
 
   Doi                      = {10.1137/S0895479896305696},
   File                     = {DeDV00_Lathauver_multilinear_svd.pdf:DeDV00_Lathauver_multilinear_svd.pdf:PDF},
-  Fjournal                 = SIAMMatrix,
+  Fjournal                 = {#SIAMMatrix#},
   ISSN                     = {0895-4798; 1095-7162/e},
   Language                 = {English},
   Msc2010                  = {15A18 15A69 15A63 15A60 62G30 92B15 62P15},
@@ -773,7 +967,7 @@
   Journal                  = {J. Comp. Appl. Math.},
   Year                     = {1993},
   Number                   = {1--2},
-  Pages                    = {47 - 63},
+  Pages                    = {47-63},
   Volume                   = {45},
 
   Doi                      = {http://dx.doi.org/10.1016/0377-0427(93)90264-C},
@@ -803,7 +997,22 @@
   Pages                    = {pp. 1055-1073},
   Volume                   = {25},
 
+  File                     = {DieOR88_RicLinBVP_theoretical.pdf:DieOR88_RicLinBVP_theoretical.pdf:PDF},
   Url                      = {http://www.jstor.org/stable/2157658}
+}
+
+@Book{Dou72,
+  Title                    = {Banach Algebra Techniques in Operator Theory},
+  Author                   = {Ronald G. {Douglas}},
+  Publisher                = {Academic Press},
+  Year                     = {1972},
+
+  Address                  = {New York, NY},
+
+  HowPublished             = {{Pure and Applied Mathematics, 49. New York-London: Academic Press. XVI,216 p. \$ 14.00 (1972).}},
+  Language                 = {English},
+  Msc2010                  = {47Bxx 46H05 46-02 46L10 46L05 47-02 47Axx},
+  Zbl                      = {0247.47001}
 }
 
 @Book{ElmSW05,
@@ -899,6 +1108,23 @@
   Reviewer                 = {{Gerald A. Heuer (Moorhead)}}
 }
 
+@Article{FurGH98,
+  Title                    = {Boundary Value Problems and Optimal Boundary Control for the Navier--Stokes System: the Two-Dimensional Case},
+  Author                   = {A. V. Fursikov and M. D. Gunzburger and L. S. Hou},
+  Journal                  = SIAMContOpt,
+  Year                     = {1998},
+  Number                   = {3},
+  Pages                    = {852-894},
+  Volume                   = {36},
+
+  Doi                      = {10.1137/S0363012994273374},
+  Eprint                   = { http://dx.doi.org/10.1137/S0363012994273374 
+},
+  File                     = {FurGH98_Fursikov_Hou_bvp_optimal_boundary_value_control_nse.pdf:FurGH98_Fursikov_Hou_bvp_optimal_boundary_value_control_nse.pdf:PDF},
+  Url                      = { http://dx.doi.org/10.1137/S0363012994273374 
+}
+}
+
 @Book{GajGZ74,
   Title                    = {Nichtlineare {O}peratorgleichungen und {O}peratordifferentialgleichungen},
   Author                   = {Gajewski, Herbert and Gr{\"o}ger, Konrad and Zacharias, Klaus},
@@ -947,14 +1173,13 @@
 }
 
 @Misc{Krypy,
-  Title                    = {Krypy},
+  Title                    = {Krypy -- A {P}ython toolbox of iterative solvers for linear systems, Commit: 23500bc9},
 
   Author                   = {A. Gaul},
-  HowPublished             = {Public Git Repository},
-  Note                     = {Iterative Solvers for Linear Systems, \texttt{https://github.com/andrenarchy/krypy}},
-  Year                     = {Commit: 110a1fb756fb},
+  HowPublished             = {\url{https://github.com/andrenarchy/krypy}},
+  Year                     = {2014},
 
-  Url                      = {https://github.com/andrenarchy/krypy}
+  Url                      = {\url{https://github.com/andrenarchy/krypy}}
 }
 
 @Article{Ger06,
@@ -991,6 +1216,24 @@
   Mrclass                  = {70E55 (34A09 49N90 70-08 70Q05 93C95)},
   Mrnumber                 = {2030336 (2004j:70015)},
   Url                      = {http://dx.doi.org/10.1002/zamm.200310067}
+}
+
+@Article{GerK11,
+  Title                    = {A globally convergent semi-smooth {N}ewton method for control-state constrained {DAE} optimal control problems},
+  Author                   = {Gerdts, Matthias and Kunkel, Martin},
+  Journal                  = CompOptimApp,
+  Year                     = {2011},
+  Number                   = {3},
+  Pages                    = {601-633},
+  Volume                   = {48},
+
+  Doi                      = {10.1007/s10589-009-9275-0},
+  File                     = {GerK11_globally_convergent_semismooth_Newt_control-state_constrained_DAE_control.pdf:needread/GerK11_globally_convergent_semismooth_Newt_control-state_constrained_DAE_control.pdf:PDF},
+  ISSN                     = {0926-6003},
+  Keywords                 = {Optimal control; Semi-smooth Newton method; Differential-algebraic equations; Control-state constraints; Global convergence},
+  Language                 = {English},
+  Publisher                = {Springer US},
+  Url                      = {http://dx.doi.org/10.1007/s10589-009-9275-0}
 }
 
 @Book{GirR86,
@@ -1068,7 +1311,7 @@
 @Article{GubSS11,
   Title                    = {Space-time variational saddle point formulations of {S}tokes and {N}avier-{S}tokes equations },
   Author                   = {Rafaela Guberovic and Christoph Schwab and Rob Stevenson},
-  Journal                  = {ESAIM: Math. Model. Numer. Anal.},
+  Journal                  = {ESAIM Math. Model. Numer. Anal.},
   Year                     = {2013},
 
   Month                    = {12},
@@ -1089,7 +1332,7 @@
   Volume                   = {37},
 
   Doi                      = {10.1137/S0363012998337400},
-  Fjournal                 = SIAMContOpt,
+  Fjournal                 = {#SIAMContOpt#},
   ISSN                     = {0363-0129; 1095-7138/e},
   Language                 = {English},
   Msc2010                  = {35Q30 35B37 49K20 65M60 76D05},
@@ -1141,14 +1384,13 @@
 }
 
 @Book{HaiLR89,
-  Title                    = {{The Numerical Solution of Differential-algebraic Systems by Runge-Kutta Methods}},
+  Title                    = {{The Numerical Solution of Differential-Algebraic Systems by Runge-Kutta Methods}},
   Author                   = {Hairer, Ernst and Lubich, Christian and Roche, Michel},
   Publisher                = {Springer},
   Year                     = {1989},
 
   Address                  = {Berlin, Germany},
 
-  Abstract                 = {{In this monograph the authors systematically study application of implicit and semi-explicit Runge-Kutta methods for discrete approximation to differential-algebraic systems of ordinary differential equations. Applications to singularly perturbed systems are also included. The systems are classified according to the permutation index of the system, i.e. the behavior of the residual under a small perturbation of the solution. \par It is shown that the appropriate choice of the Runge-Kutta method depends directly on the index of the system. Explicit choices are discussed for indices $m=1,2,3$ (systems in normal form have index $m=0)$. Numerical results are presented for a number of interesting applications. A new code RADAU 5 in Fortran is presented for a 3-stage Radau IIA Runge-Kutta method which is applicable for indices $m=1,2,3.$ \par Given a system of differential equations in implicit form $F(Y',Y)=0$ the equation has perturbation index m along a solution Y on [0,b] if for all Z near Y the defect $\delta (x)=F(Z',Z)$ satisfies $$ \Vert Z(x)- Y(x)\Vert \le C(\Vert Z(0)-Y(0)\Vert +\sum\sp{m-1}\sb{j=0}\max\sb{0\le t\le x}\Vert \delta\sp{(j)}(t)\Vert). $$ The authors employ the following canonical forms for systems with indices $m=1,2,3:$ 1) $m=1$, $y'=f(y,z),\quad g(y,z)=0$ and $g\sb z$ is invertible. 2) $m=2$, $y'=f(y,z),\quad g(y)=0,$ and $g\sb yf\sb z$ has a bounded inverse. 3) $m=3$, $y'=f(y,z),\quad z'=k(y,z,u),\quad 0=g(y,u)$ and $g\sb yf\sb zk\sb u$ has a bounded inverse. Which Runge-Kutta algorithm may be applied to a system depends on which of these forms it assumes. The applicable implicit Runge-Kutta methods are classified following {\it J. C. Butcher} [The numerical analysis of ordinary differential equations (1987; Zbl 0616.65072)] and {\it K. Dekker} and {\it J. G. Verwer} [Stability of Runge-Kutta methods for stiff nonlinear differential equations (1984; Zbl 0571.65057)] according to whether Gauss, Radau, or Lobatto quadrature is used. The specific algorithms considered are Gauss, Radau IA, IIA, and Lobatto IIIA, IIIC. In addition singly diagonal methods of {\it R. Alexander} [SIAM J. Numer. Anal. 14, 1006-1021 (1977; Zbl 0374.65038)] and of {\it S. P. N{\o}rsett} and {\it P. Thomsen} [BIT 26, 100-113 (1986; Zbl 0627.65082)] are covered. \par The notion of perturbation index and the classification of differential- algebraic systems is presented in chapter 1. Chapter 2 contains a review of Runge-Kutta methods for ordinary differential and differential- algebraic equations including methods for singularly perturbed systems. Chapters 3-6 select and describe methods appropriate respectively for indices $m=1,2,3$. Proofs of convergence of the methods are presented including convergence for associated perturbed systems. Chapter 7 presents a simplified Newton method applicable to the relevant algorithms and chapter 8 concerns local error estimation. In chapter 9 a summary of numerical results is given for a number of interesting applications and chapter 10 presents the code RADAU 5. \par The material presented in the monograph represents recent research by many authors which is published here for the first time in a unified form. A comprehensive bibliography and index are included.}},
   Classmath                = {{*65L05 (Initial value problems for ODE (numerical methods)) 65H10 (Systems of nonlinear equations (numerical methods)) 65-02 (Research monographs (numerical analysis)) 34A34 (Nonlinear ODE and systems, general) 34E15 (Asymptotic singular perturbations, general theory (ODE)) }},
   Doi                      = {10.1007/BFb0093947},
   File                     = {:/homes/numerik/heiland/Desktop/heiland/moi/buecher/[Ernst_Hairer,_Christian_Lubich,_Michel_Roche]_The(BookFi.org).djvu:Djvu},
@@ -1162,12 +1404,14 @@
   Author                   = {Jan Heiland},
   School                   = {TU Berlin},
   Year                     = {2014},
+  Note                     = {\url{http://opus4.kobv.de/opus4-tuberlin/frontdoor/index/index/docId/5243}},
 
+  Url                      = {\url{http://opus4.kobv.de/opus4-tuberlin/frontdoor/index/index/docId/5243}},
   Urn                      = {urn:nbn:de:kobv:83-opus4-52433}
 }
 
 @Misc{Hei13_gh-optconpy,
-  Title                    = {optconpy - A {P}ython Module for the solution of {DAE-R}iccati Equations via {N}ewton-{ADI} and Application Example, v0.0},
+  Title                    = {optconpy - A {P}ython Module for the solution of {DAE-R}iccati Equations via {N}ewton-{ADI} and Application Example},
 
   Author                   = {Jan Heiland},
   HowPublished             = {\url{https://github.com/highlando/optconpy}},
@@ -1217,13 +1461,13 @@
 @InProceedings{HeiMS10,
   Title                    = {A New Discretization Framework for Input/Output Maps and its Application to Flow Control},
   Author                   = {Heiland, J. and Mehrmann, V. and Schmidt, M.},
-  Booktitle                = {Active Flow Control. Papers contributed to the Conference "Active Flow Control II 2010", Berlin, Germany, May 26 to 28, 2010},
+  Booktitle                = {Active Flow Control. Papers contributed to the Conference},
   Year                     = {2010},
   Editor                   = {King, R.},
-  Pages                    = {375-372},
+  Pages                    = {357-372},
   Publisher                = {Springer, Berlin},
 
-  File                     = {:homes/numerik/heiland/work/mSchmidtSFB/HeiMS09/HeiMS09.pdf:PDF}
+  Url2                     = {http://www.springer.com/materials/mechanics/book/978-3-642-11734-3}
 }
 
 @Article{HeiSS08,
@@ -1301,8 +1545,25 @@
   Pages                    = {275-311},
   Volume                   = {19},
 
+  File                     = {HeyR82_femForNonstNSE1.pdf:HeyR82_femForNonstNSE1.pdf:PDF},
   Publisher                = {Society for Industrial and Applied Mathematics},
   Url                      = {http://www.jstor.org/stable/2156947}
+}
+
+@Article{HilI11,
+  Title                    = {Exponential stability of time-varying linear systems},
+  Author                   = {Hill, Adrian T. and Ilchmann, Achim},
+  Journal                  = {IMA Journal of Numerical Analysis},
+  Year                     = {2011},
+  Number                   = {3},
+  Pages                    = {865-885},
+  Volume                   = {31},
+
+  Abstract                 = {This paper considers the stability of both continuous and discrete time-varying linear systems. Stability estimates are obtained in either case in terms of the Lipschitz constant for the governing matrices and the assumed uniform decay rate of the corresponding frozen time linear systems. The main techniques used in the analysis are comparison methods, scaling and the application of continuous stability estimates to the discrete case. Counterexamples are presented to show the necessity of the stability hypotheses. The discrete results are applied to derive sufficient conditions for the stability of a backward Euler approximation of a time-varying system and a one-leg linear multistep approximation of a scalar system.},
+  Doi                      = {10.1093/imanum/drq002},
+  Eprint                   = {http://imajna.oxfordjournals.org/content/31/3/865.full.pdf+html},
+  File                     = {HilI11_Hill-Ilchmann-2011-IMA_stability_time_varying_systems.pdf:sdre/HilI11_Hill-Ilchmann-2011-IMA_stability_time_varying_systems.pdf:PDF},
+  Url                      = {http://imajna.oxfordjournals.org/content/31/3/865.abstract}
 }
 
 @Article{HinH06,
@@ -1336,7 +1597,7 @@
 }
 
 @Misc{Hin00,
-  Title                    = {Optimal and instantaneous control of the instationary Navier-Stokes equations},
+  Title                    = {Optimal and instantaneous control of the instationary {N}avier-{S}tokes equations},
 
   Author                   = {Hinze, M.},
   HowPublished             = {Habilitationsschrift, Institut f\"ur Mathematik, Technische Universit\"at Berlin},
@@ -1358,7 +1619,7 @@
 
   Doi                      = {10.1137/S0363012999361810},
   Eprint                   = {http://epubs.siam.org/doi/pdf/10.1137/S0363012999361810},
-  File                     = {:/home/heiland/moi/papers/control/HinK01_2ndOrderMethodsFlowControl.pdf:PDF},
+  File                     = {HinK01_2ndOrderMethodsFlowControl.pdf:HinK01_2ndOrderMethodsFlowControl.pdf:PDF},
   Url                      = {http://epubs.siam.org/doi/abs/10.1137/S0363012999361810}
 }
 
@@ -1398,6 +1659,23 @@
 
   Classmath                = {{*65H10 (Systems of nonlinear equations (numerical methods)) }},
   Language                 = {English}
+}
+
+@Article{HouR99,
+  Title                    = {Numerical Approximation of Optimal Flow Control Problems by a Penalty Method: Error Estimates and Numerical Results},
+  Author                   = {L. S. Hou and S. S. Ravindran},
+  Journal                  = {SIAM Journal on Scientific Computing},
+  Year                     = {1999},
+  Number                   = {5},
+  Pages                    = {1753-1777},
+  Volume                   = {20},
+
+  Doi                      = {10.1137/S1064827597325153},
+  Eprint                   = { http://dx.doi.org/10.1137/S1064827597325153 
+},
+  File                     = {HouR99_Hou_Ravindran_num_appr_opt_flow_penalty_method_error_estimates_num_results.pdf:HouR99_Hou_Ravindran_num_appr_opt_flow_penalty_method_error_estimates_num_results.pdf:PDF},
+  Url                      = { http://dx.doi.org/10.1137/S1064827597325153 
+}
 }
 
 @Article{HoyS84,
@@ -1461,6 +1739,22 @@
   Doi                      = {10.1137/0806007},
   Eprint                   = {http://epubs.siam.org/doi/pdf/10.1137/0806007},
   Url                      = {http://epubs.siam.org/doi/abs/10.1137/0806007}
+}
+
+@Article{JacM12,
+  Title                    = {Second-Order Systems With Acceleration Measurements},
+  Author                   = {Birgit Jacob and Kirsten Morris},
+  Journal                  = {{IEEE} Trans. Automat. Contr.},
+  Year                     = {2012},
+  Number                   = {3},
+  Pages                    = {690--700},
+  Volume                   = {57},
+
+  Bibsource                = {dblp computer science bibliography, http://dblp.org},
+  Biburl                   = {http://dblp.uni-trier.de/rec/bib/journals/tac/JacobM12},
+  Doi                      = {10.1109/TAC.2011.2173421},
+  File                     = {JacM12_JacobMorris_2nd_order_systems_w_acceleration_measurements.pdf:JacM12_JacobMorris_2nd_order_systems_w_acceleration_measurements.pdf:PDF},
+  Url                      = {http://dx.doi.org/10.1109/TAC.2011.2173421}
 }
 
 @Article{JohRB95,
@@ -1586,11 +1880,12 @@
 }
 
 @Book{KrsS08,
-  Title                    = {{Boundary control of PDEs. A course on backstepping designs}},
+  Title                    = {{Boundary Control of PDEs. A Course on Backstepping Designs}},
   Author                   = {Miroslav {Krstic} and Andrey {Smyshlyaev}},
   Publisher                = {SIAM},
-  Address 				   = {Philadelphia, PA},
   Year                     = {2008},
+
+  Address                  = {Philadelphia, PA},
 
   Doi                      = {10.1137/1.9780898718607},
   ISBN                     = {978-0-89871-650-4/hbk},
@@ -1611,7 +1906,7 @@
 
   Doi                      = {10.1137/060670110},
   File                     = {KunV07_const_diri_BC_evolution_eqns.pdf:KunV07_const_diri_BC_evolution_eqns.pdf:PDF},
-  Fjournal                 = {{SIAM Journal on Control and Optimization}},
+  Fjournal                 = {#SIAMContOpt#},
   ISSN                     = {0363-0129; 1095-7138/e},
   Language                 = {English},
   Msc2010                  = {49J20 35K05 49K20 49K05 49M29 49M25},
@@ -1656,12 +1951,12 @@
   Volume                   = {20},
 
   Comment                  = {& Ordner SKM},
-  File                     = {:home/heiland/moi/papers/control/KunM08a.pdf:PDF},
+  File                     = {KunM08a.pdf:KunM08a.pdf:PDF},
   Timestamp                = {2010.11.16}
 }
 
 @Book{KunM06,
-  Title                    = {{Differential-algebraic Equations. Analysis and Numerical solution}},
+  Title                    = {{Differential-Algebraic Equations. Analysis and Numerical Solution}},
   Author                   = {Kunkel, Peter and Mehrmann, Volker},
   Publisher                = {European Mathematical Society Publishing House},
   Year                     = {2006},
@@ -1729,7 +2024,7 @@
   ISSN                     = {0932-4194},
   Keywords                 = {Self-adjoint pair of matrix functions; Self-conjugate operator; Optimal control with DAEs; Condensed form; Congruence transformation; Hamiltonian system},
   Language                 = {English},
-  Publisher                = {Springer-Verlag},
+  Publisher                = {Springer},
   Url                      = {http://dx.doi.org/10.1007/s00498-013-0109-3}
 }
 
@@ -1795,7 +2090,7 @@
   Volume                   = {42},
 
   Comment                  = {& Ordner SKM},
-  File                     = {:/home/heiland/moi/papers/control/dae/KurM04_LQRforLinTimeVarDAEs.pdf:PDF},
+  File                     = {KurM04_LQRforLinTimeVarDAEs.pdf:KurM04_LQRforLinTimeVarDAEs.pdf:PDF},
   Timestamp                = {2011.11.15}
 }
 
@@ -1808,12 +2103,21 @@
   Pages                    = {1277-1298},
   Volume                   = {46},
 
-  Comment                  = {& Ordner SKM},
   Doi                      = {10.1137/050637352},
-  File                     = {:home/heiland/moi/papers/control/dae/KurM07.pdf:PDF},
+  File                     = {KurM07.pdf:KurM07.pdf:PDF},
   Keywords                 = {linear-quadratic optimal control problems; feedback control; differential-algebraic equations; descriptor systems; Riccati equations; Hamiltonian systems},
   Publisher                = {SIAM},
   Url                      = {http://link.aip.org/link/?SJC/46/1277/1}
+}
+
+@Book{KuzH14,
+  Title                    = {Finite Element Methods for Computational Fluid Dynamics: A Practical Guide},
+  Author                   = {Kuzmin, Dmitri and Hamalainen, Jari},
+  Publisher                = {SIAM},
+  Year                     = {2014},
+
+  Address                  = {Philadelphia, PA},
+  Volume                   = {14}
 }
 
 @Book{Lad69,
@@ -1876,7 +2180,7 @@
   ISSN                     = {0095-4616},
   Language                 = {English},
   Owner                    = {heiland},
-  Publisher                = {Springer-Verlag},
+  Publisher                = {Springer},
   Timestamp                = {2014.04.28},
   Url                      = {http://dx.doi.org/10.1007/BF01442191}
 }
@@ -1905,7 +2209,7 @@
   Volume                   = {8},
 
   Doi                      = {10.1051/cocv:2002025},
-  Fjournal                 = {ESAIM. Control, Optimisation and Calculus of Variations. European Series in Applied and Industrial Mathematics},
+  Fjournal                 = {ESAIM Control, Optimisation and Calculus of Variations. European Series in Applied and Industrial Mathematics},
   ISSN                     = {1292-8119},
   Mrclass                  = {93B05 (35Q72 65L12 74K10 74M05 93C20)},
   Mrnumber                 = {1932975 (2003k:93009)},
@@ -2011,7 +2315,7 @@
   Title                    = {{FFC}: the {FEniCS} form compiler},
   Author                   = {Logg, Anders and \O{}lgaard, Kristian B. and Rognes, Marie E. and Wells, Garth N.},
   Booktitle                = {Automated Solution of Differential Equations by the Finite Element Method},
-  Publisher                = {Springer-Verlag},
+  Publisher                = {Springer},
   Year                     = {2012},
 
   Address                  = {Berlin, Germany},
@@ -2034,7 +2338,7 @@
   Volume                   = {21},
 
   Doi                      = {10.1016/0898-1221(91)90124-M},
-  File                     = {:/home/heiland/moi/papers/control/Riccati/Numerik/LuW91_ADIforLyapu.pdf:PDF},
+  File                     = {LuW91_ADIforLyapu.pdf:LuW91_ADIforLyapu.pdf:PDF},
   ISSN                     = {0898-1221},
   Url                      = {http://www.sciencedirect.com/science/article/pii/089812219190124M}
 }
@@ -2079,7 +2383,7 @@
   Classmath                = {{*65L80 (Methods for differential-algebraic equations) 34A09 (Implicit equations) 65L05 (Initial value problems for ODE (numerical methods)) 65L06 (Multistep, Runge-Kutta, and extrapolation methods) }},
   Comment                  = {& Ordner SKM},
   Doi                      = {10.1016/S0168-9274(01)00158-1},
-  File                     = {:home/heiland/moi/papers/control/dae/M02.ps:PostScript},
+  File                     = {M02.ps:M02.ps:PostScript},
   Keywords                 = {{differential algebraic equations; backward differentiation formulae; decoupling}},
   Language                 = {English},
   Reviewer                 = {{Johannes Schropp (Konstanz)}}
@@ -2093,6 +2397,7 @@
   Pages                    = {88-97},
   Volume                   = {7},
 
+  File                     = {KunM01.pdf:KunM01.pdf:PDF},
   Url                      = {http://scholar.google.com/scholar_host?q=info:Z5ZVKrv6cU0J:scholar.google.com/&output=viewport&pg=88#P88,M1}
 }
 
@@ -2147,6 +2452,38 @@
   Number                   = {3--2012},
 
   File                     = {:/homes/numerik/heiland/Desktop/heiland/moi/papers/Meh12_ppt.pdf:PDF}
+}
+
+@Article{MehP12,
+  Title                    = {Doubling Algorithms with Permuted {L}agrangian Graph Bases},
+  Author                   = {Mehrmann, V. and Poloni, F.},
+  Journal                  = {SIAM J. Matrix Anal. Appl.},
+  Year                     = {2012},
+  Number                   = {3},
+  Pages                    = {780-805},
+  Volume                   = {33},
+
+  Doi                      = {10.1137/110850773},
+  File                     = {MehP12a_permutedLagrangian.pdf:MehP12a_permutedLagrangian.pdf:PDF},
+  Pdf                      = {files2/MehP12a_permutedLagrangian.pdf},
+  Url                      = {http://epubs.siam.org/doi/abs/10.1137/110850773}
+}
+
+@Article{MehX00,
+  Title                    = {Numerical methods in control },
+  Author                   = {Volker Mehrmann and Hongguo Xu},
+  Journal                  = {Journal of Computational and Applied Mathematics },
+  Year                     = {2000},
+  Note                     = {Numerical Analysis 2000. Vol. III: Linear Algebra },
+  Number                   = {1-2},
+  Pages                    = {371 - 394},
+  Volume                   = {123},
+
+  Doi                      = {http://dx.doi.org/10.1016/S0377-0427(00)00392-7},
+  File                     = {MehX00_numerical_methods_control.pdf:MehX00_numerical_methods_control.pdf:PDF},
+  ISSN                     = {0377-0427},
+  Keywords                 = {Pole placement},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0377042700003927}
 }
 
 @Article{MenB13,
@@ -2207,6 +2544,21 @@
   Url                      = {http://epubs.siam.org/doi/abs/10.1137/0913064}
 }
 
+@Article{MraC98,
+  Title                    = {Control designs for the nonlinear benchmark problem via the state-dependent {R}iccati equation method},
+  Author                   = {Mracek, Curtis P. and Cloutier, James R.},
+  Journal                  = {International Journal of Robust and Nonlinear Control},
+  Year                     = {1998},
+  Number                   = {4-5},
+  Pages                    = {401--433},
+  Volume                   = {8},
+
+  Doi                      = {10.1002/(SICI)1099-1239(19980415/30)8:4/5<401::AID-RNC361>3.0.CO;2-U},
+  ISSN                     = {1099-1239},
+  Publisher                = {Wiley Subscription Services, Inc., A Wiley Company},
+  Url                      = {http://dx.doi.org/10.1002/(SICI)1099-1239(19980415/30)8:4/5<401::AID-RNC361>3.0.CO;2-U}
+}
+
 @Article{Mur37,
   Title                    = {On complementary manifolds and projections in spaces {$L_p$} and {$l_p$}},
   Author                   = {Murray, F. J.},
@@ -2226,6 +2578,15 @@
   Url                      = {http://dx.doi.org/10.2307/1989881}
 }
 
+@Article{NacOSS14,
+  Title                    = {The Use of the Adjoint Method for Solving Typical Optimization Problems in Multibody Dynamics},
+  Author                   = {K. Nachbagauer and S. Oberpeilsteiner and K. Sherif and W. Steiner},
+  Journal                  = {Journal of Computational and Nonlinear Dynamics},
+  Year                     = {2014},
+
+  Doi                      = {doi:10.1115/1.4028417}
+}
+
 @Book{Nec12,
   Title                    = {Direct Methods in the Theory of Elliptic Equations},
   Author                   = {Ne{\v c}as, Jindrich},
@@ -2238,7 +2599,7 @@
 @Article{Nit71,
   Title                    = {{{\"U}ber ein Variationsprinzip zur L\"osung von Dirichlet-Problemen bei Verwendung von Teilr\"aumen, die keinen Randbedingungen unterworfen sind}},
   Author                   = {Nitsche, J.},
-  Journal                  = {Abhandlungen aus dem Mathematischen Seminar der Universit\"at Hamburg},
+  Journal                  = {Abh. Math. Semin. Univ. Hambg.},
   Year                     = {1971},
   Number                   = {1},
   Pages                    = {9-15},
@@ -2246,6 +2607,7 @@
 
   Doi                      = {10.1007/BF02995904},
   File                     = {Nit71_Variationsprinzip_Dirichletbedingungen.pdf:Nit71_Variationsprinzip_Dirichletbedingungen.pdf:PDF},
+  Fjournal                 = {Abhandlungen aus dem Mathematischen Seminar der Universit\"at Hamburg},
   ISSN                     = {0025-5858},
   Language                 = {German},
   Publisher                = {Springer-Verlag},
@@ -2359,6 +2721,7 @@
   Doi                      = {10.1137/050628726},
   Eprint                   = { http://dx.doi.org/10.1137/050628726 
 },
+  File                     = {Ray06.pdf:Ray06.pdf:PDF},
   Url                      = { http://dx.doi.org/10.1137/050628726 
 }
 }
@@ -2366,7 +2729,7 @@
 @Article{Ray07,
   Title                    = {Stokes and {Navier-Stokes} equations with nonhomogeneous boundary conditions},
   Author                   = {J.-P. Raymond},
-  Journal                  = {Annales de l'Institut Henri Poincare (C) Non Linear Analysis},
+  Journal                  = {Ann. Inst. H. Poincar\'e Anal. Non Lin\'eaire},
   Year                     = {2007},
   Number                   = {6},
   Pages                    = {921 -- 951},
@@ -2374,6 +2737,7 @@
 
   Doi                      = {http://dx.doi.org/10.1016/j.anihpc.2006.06.008},
   File                     = {Ray07_NSE_with_nonhomogeneous_BC.pdf:Ray07_NSE_with_nonhomogeneous_BC.pdf:PDF},
+  Fjournal                 = {Annales de l'Institut Henri Poincare (C) Non Linear Analysis},
   ISSN                     = {0294-1449},
   Owner                    = {heiland},
   Timestamp                = {2014.04.28},
@@ -2467,6 +2831,22 @@
   Zbl                      = {1098.76602}
 }
 
+@Book{Rug96,
+  Title                    = {Linear System Theory},
+  Author                   = {Wilson J. {Rugh}},
+  Publisher                = {Prentice Hall},
+  Year                     = {1996},
+
+  Address                  = {Upper Saddle River, NJ},
+  Edition                  = {2nd ed.},
+
+  ISBN                     = {0-13-441205-2},
+  Language                 = {English},
+  Msc2010                  = {93-01 93C05},
+  Pages                    = {xv + 581},
+  Zbl                      = {0892.93002}
+}
+
 @Article{Run10,
   Title                    = {{A new and simple proof of Schauder's theorem}},
   Author                   = {{Runde}, V.},
@@ -2504,14 +2884,14 @@
   Issue                    = {2},
   Keywords                 = {90C51; 49M05},
   Language                 = {English},
-  Publisher                = {Springer-Verlag},
+  Publisher                = {Springer},
   Url                      = {http://dx.doi.org/10.1007/s00211-011-0381-4}
 }
 
 @Article{Sch08,
   Title                    = {{Uniformly stable mixed $hp$-finite elements on multilevel adaptive grids with hanging nodes}},
   Author                   = {Friedhelm {Schieweck}},
-  Journal                  = {{ESAIM, Math. Model. Numer. Anal.}},
+  Journal                  = {{ESAIM Math. Model. Numer. Anal.}},
   Year                     = {2008},
   Number                   = {3},
   Pages                    = {493--505},
@@ -2537,6 +2917,43 @@
   Language                 = {English}
 }
 
+@InCollection{ShaD00,
+  Title                    = {Fluid mechanics in the driven cavity},
+  Author                   = {Shankar, P. N. and Deshpande, M. D.},
+  Booktitle                = {Annual review of fluid mechanics},
+  Publisher                = {Annual Reviews Inc.},
+  Year                     = {2000},
+  Editor                   = {Lumley, John L. et al.},
+  Pages                    = {93-136},
+  Volume                   = {32}
+}
+
+@Misc{ifiss,
+  Title                    = {{I}ncompressible {F}low and {I}terative {S}olver {S}oftware ({IFISS}) version 3.3},
+
+  Author                   = {David Silvester and Howard Elman and Alison Ramage},
+  Month                    = {October},
+  Note                     = {{\tt http://www.manchester.ac.uk/ifiss/}},
+  Year                     = {2013}
+}
+
+@Article{Sim98,
+  Title                    = {{DAE}s and {PDE}s in Elastic Multibody Systems},
+  Author                   = {Simeon, B.},
+  Journal                  = NumerAlg,
+  Year                     = {1998},
+  Number                   = {1-4},
+  Pages                    = {235-246},
+  Volume                   = {19},
+
+  Doi                      = {10.1023/A:1019118809892},
+  ISSN                     = {1017-1398},
+  Keywords                 = {DAEs; elastic multibody systems; numerical simulation; slider crank; 65L05; 70-08},
+  Language                 = {English},
+  Publisher                = {Kluwer Academic Publishers},
+  Url                      = {http://dx.doi.org/10.1023/A%3A1019118809892}
+}
+
 @Book{Son98,
   Title                    = {Mathematical Control Theory. Deterministic Finite Dimensional Systems},
   Author                   = {Sontag, Eduardo D.},
@@ -2544,6 +2961,20 @@
   Year                     = {1998},
 
   Address                  = {New York, NY}
+}
+
+@Book{Sta05,
+  Title                    = {Well-posed Linear Systems},
+  Author                   = {Olof Johan {Staffans}},
+  Publisher                = {Cambridge University Press},
+  Year                     = {2005},
+
+  File                     = {:/home/heiland/Dropbox/arbhom/books/Sta05_Staffans_Well_Posed_linear_systems.pdf:PDF},
+  ISBN                     = {0-521-82584-9/hbk},
+  Language                 = {English},
+  Msc2010                  = {93-02 93C25 93B15 93B28 93B20 93D15 47D06 47B38 47D60},
+  Pages                    = {xviii + 776},
+  Zbl                      = {1057.93001}
 }
 
 @Book{Tar06,
@@ -2614,6 +3045,24 @@
   ISBN                     = {978-3-642-23098-1},
   Language                 = {English},
   Url                      = {http://dx.doi.org/10.1007/978-3-642-23099-8_20}
+}
+
+@Article{TheBR10,
+  Title                    = {Nonlinear feedback stabilization of a two-dimensional {B}urgers equation},
+  Author                   = {Thevenet, Laetitia and Buchot, Jean-Marie and Raymond, Jean-Pierre},
+  Journal                  = {ESAIM: Control, Optimisation and Calculus of Variations},
+  Year                     = {2010},
+
+  Month                    = {10},
+  Pages                    = {929--955},
+  Volume                   = {16},
+
+  Doi                      = {10.1051/cocv/2009028},
+  File                     = {TheBR10_nonlinear_fb_stabilization_2D_burgers.pdf:TheBR10_nonlinear_fb_stabilization_2D_burgers.pdf:PDF},
+  ISSN                     = {1262-3377},
+  Issue                    = {04},
+  Numpages                 = {27},
+  Url                      = {http://www.esaim-cocv.org/article_S1292811909000281}
 }
 
 @Misc{Tis04,
@@ -2781,6 +3230,21 @@
   Timestamp                = {2013.12.11}
 }
 
+@Book{Wan95,
+  Title                    = {Introduction to the Calculus of Variations and its Applications},
+  Author                   = {Frederick Y.M. {Wan}},
+  Publisher                = {Chapman \& Hall},
+  Year                     = {1995},
+
+  Address                  = {New York, NY},
+
+  ISBN                     = {0-412-05141-9},
+  Language                 = {English},
+  Msc2010                  = {49-01 70H20 70H03 35J20},
+  Pages                    = {xviii + 638},
+  Zbl                      = {0843.49001}
+}
+
 @PhdThesis{Wei97,
   Title                    = {{Applications of the theory of differential-algebraic equations to partial differential equations of fluid dynamics}},
   Author                   = {Weickert, J.},
@@ -2803,6 +3267,23 @@
   Mrclass                  = {46.10},
   Mrnumber                 = {0212548 (35 \#3419)},
   Mrreviewer               = {M. Rosenfeld}
+}
+
+@Article{XuM93,
+  Title                    = {{Hamilton-Jacobi equation for descriptor systems}},
+  Author                   = {Xu, Hua and Mizukami, Koichi},
+  Journal                  = SCL,
+  Year                     = {1993},
+  Number                   = {4},
+  Pages                    = {321-327},
+  Volume                   = {21},
+
+  Abstract                 = {{Summary: This paper is concerned with the extension of the Hamilton-Jacobi equation from the state space system to the descriptor system. The principle of optimality is interpreted in the sense of the strategy (or closed-loop control). The Hamilton-Jacobi equation for the descriptor system is derived. An illustrative example is given to show the application of the Hamilton-Jacobi equation in the optimal control problem.}},
+  Classmath                = {{*49J15 (Optimal control problems with ODE (existence)) 93C15 (Control systems governed by ODE) }},
+  Doi                      = {10.1016/0167-6911(93)90075-H},
+  File                     = {XuM93.pdf:XuM93.pdf:PDF},
+  Keywords                 = {{impulse-free solution; Hamilton-Jacobi equation; descriptor system; optimal control}},
+  Language                 = {English}
 }
 
 @Article{YecLD09,
