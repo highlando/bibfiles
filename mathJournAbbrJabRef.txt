@@ -1356,6 +1356,7 @@ Journal of Mathematical Study. Shuxue Yanjiu = J. Math. Study
 Journal of Mathematics & Music. Mathematical and Computational Approaches to Music Theory, Analysis, Composition and Performance = J. Math. Music
 Journal of Mathematics and Applications = J. Math. Appl.
 Journal of Mathematics and the Arts = J. Math. Arts
+Journal of Mathematics in Industry = J. Math. Ind.
 Journal of Mathematics of Kyoto University = J. Math. Kyoto Univ.
 Journal of Mathematics, Statistics and Allied Fields = J. Math. Stat. Allied Fields
 Journal of Mathematics. Shuxue Zazhi = J. Math. (Wuhan)
