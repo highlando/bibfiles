@@ -1,0 +1,1 @@
+/home/heiland/software/gits/plainyrrevbibstyle/bibstyles/plainyr-rev/plainyr-rev.bst
