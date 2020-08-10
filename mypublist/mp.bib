@@ -233,15 +233,15 @@
 
 @Article{Hei16,
   author  = {Heiland, Jan},
-  title   = {A Differential-Algebraic {R}iccati Equation for Applications in Flow Control},
   journal = SIAMControlOpt,
+  title   = {A Differential-Algebraic {R}iccati Equation for Applications in Flow Control},
   year    = {2016},
-  volume  = {54},
   number  = {2},
   pages   = {718-739},
+  volume  = {54},
   doi     = {10.1137/151004963},
-  file    = {:/home/heiland/work/papers/13-14-15/hei13_daericflow/publicationdocs/100496.pdf:PDF;:/home/heiland/work/papers/hei13_daericflow/publicationdocs/100496.pdf:PDF},
-  groups  = {incompressible flows, DAEs},
+  file    = {:/home/heiland/work/papers/13-14-15/hei13_daericflow/publicationdocs/100496.pdf:PDF},
+  groups  = {incompressible flows, DAEs, Riccati},
   url     = {http://dx.doi.org/10.1137/151004963},
 }
 
@@ -350,12 +350,14 @@ Finally, the effectiveness of the proposed method is illustrated via numerical e
   groups  = {model reduction, optimal control, discretization},
 }
 
-@Article{BenH17a,
+@Article{BenH18,
   author  = {Benner, Peter and Heiland, Jan},
-  title   = {Exponential Stability and Stabilization of {E}xtended {L}inearizations via Continuous Updates of {R}iccati Based Feedback},
   journal = IntRobCont,
-  year    = {2017},
-  note    = {accepted for publication (online first)},
+  title   = {Exponential Stability and Stabilization of {E}xtended {L}inearizations via Continuous Updates of {R}iccati Based Feedback},
+  year    = {2018},
+  number  = {4},
+  pages   = {1218--1232},
+  volume  = {28},
   doi     = {10.1002/rnc.3949},
   file    = {:/home/heiland/work/papers/BenH16_ext-lin-stab/publicationdocs/rnc.3949.pdf:PDF},
 }
@@ -413,10 +415,11 @@ depend on the regularization parameters of the optimization.},
 
 @Article{AltH17a,
   author  = {Altmann, Robert and Heiland, Jan},
-  title   = {Regularization and {R}othe Discretization of Semi-Explicit Operator {DAE}s},
   journal = {Int. J. Numer. Anal. Model},
-  year    = {2017},
-  note    = {accepted for publication (July 2017)},
+  title   = {Regularization and {R}othe Discretization of Semi-Explicit Operator {DAE}s},
+  year    = {2018},
+  number  = {3},
+  volume  = {15},
   file    = {:/home/heiland/work/papers/13-14-15/AltH14_operatordae/publicationdocs/2018-3-8operatorDAE.pdf:PDF},
   groups  = {infinite dimensional, DAEs, discretization},
   url     = {http://www.math.ualberta.ca/ijnam/Volume-15-2018/No-3-18/2018-03-08.pdf},
@@ -458,18 +461,18 @@ the cylinder wake over the transition period from a stable to a stabilized regim
 
 @InCollection{BenH15,
   author    = {Benner, Peter and Heiland, Jan},
-  title     = {{LQG}-{B}alanced {T}runcation Low-Order Controller for Stabilization of Laminar Flows},
   booktitle = {Active Flow and Combustion Control 2014},
   publisher = {Springer, Berlin},
+  title     = {{LQG}-{B}alanced {T}runcation Low-Order Controller for Stabilization of Laminar Flows},
   year      = {2015},
   editor    = {King, Rudibert},
-  volume    = {127},
-  series    = {Notes on Numerical Fluid Mechanics and Multidisciplinary Design},
-  pages     = {365--379},
   isbn      = {978-3-319-11966-3},
+  pages     = {365--379},
+  series    = {Notes on Numerical Fluid Mechanics and Multidisciplinary Design},
+  volume    = {127},
   doi       = {10.1007/978-3-319-11967-0_22},
   file      = {:/home/heiland/work/papers/13-14-15/BenH14_lqgbt/publicationdocs/chp%3A10.1007%2F978-3-319-11967-0_22.pdf:PDF},
-  groups    = {incompressible flows, model reduction, feedback control, DAEs},
+  groups    = {incompressible flows, model reduction, feedback control, DAEs, Riccati},
   keywords  = {Navier--Stokes equation; model order reduction; stabilization; output feedback},
   language  = {English},
   url       = {http://dx.doi.org/10.1007/978-3-319-11967-0_22},
@@ -574,4 +577,52 @@ the cylinder wake over the transition period from a stable to a stabilized regim
   groups = {model reduction, DAEs},
 }
 
+@InProceedings{BhaHB20,
+  author    = {Bhawal, Chayan and Heiland, Jan and Benner, Peter},
+  booktitle = {2020 European Control Conference (ECC)},
+  title     = {{PD} controllers to solve single-input, index-1 {DAE} based {LQR} problems},
+  year      = {2020},
+  pages     = {1795--1800},
+  file      = {:/home/heiland/work/papers/20-BenH20-ECC-dae-d11/submissiondocs/ECC20_0063_FI.pdf:PDF},
+  groups    = {Riccati},
+}
+
+@TechReport{BehBH19a,
+  author      = {Behr, M. and Benner, P. and Heiland ,J.},
+  institution = {arXiv},
+  title       = {Invariant {G}alerkin Ansatz Spaces and {D}avison-{M}aki Methods for the Numerical Solution of Differential {R}iccati Equations},
+  year        = {2019},
+  note        = {math.NA},
+  number      = {arXiv:1910.13362},
+  type        = {e-print},
+  file        = {:/home/heiland/work/papers/behbh19_paper_differential_riccati_galerkin_approach/publication-docs/1910.13362.pdf:PDF},
+  url         = {https://arxiv.org/abs/1910.13362},
+}
+
+@InProceedings{BenH20,
+  author    = {Peter Benner and Jan Heiland},
+  booktitle = {2020 European Control Conference (ECC)},
+  title     = {Equivalence of {R}iccati-based Robust Controller Design for Index-1 Descriptor Systems and Standard Plants with Feedthrough},
+  year      = {2020},
+  pages     = {402--407},
+  file      = {:/home/heiland/work/papers/20-BenH20-ECC-dae-d11/submissiondocs/ECC20_0063_FI.pdf:PDF},
+  groups    = {Riccati},
+}
+
+@Misc{HeiZ20,
+  author        = {Heiland, Jan and Zuazua, Enrique},
+  note          = {Submitted to SIAM Journal on Control and Optimization},
+  title         = {Classical System Theory Revisited for Turnpike in Standard State Space Systems and Impulse Controllable Descriptor Systems},
+  year          = {2020},
+  abstract      = {The concept of turnpike connects the solution of long but finite time horizon optimal control problems with steady state optimal controls. A key ingredient of the analysis of the turnpike is the linear quadratic regulator problem and the convergence of the solution of the associated differential Riccati equation as the terminal time approaches infinity. This convergence has been investigated in linear systems theory in the 1980s. We extend classical system theoretic results for the investigation of turnpike properties of standard state space systems and descriptor systems. We present conditions for turnpike in the nondetectable case and for impulse controllable descriptor systems. For the latter, in line with the theory for standard linear systems, we establish existence and convergence of solutions to a generalized differential Riccati equation.},
+  archiveprefix = {arXiv},
+  eprint        = {2007.13621},
+  primaryclass  = {math.OC},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-meta: grouping:
+0 AllEntriesGroup:;
+1 StaticGroup:Riccati\;2\;0\;0x8a8a8aff\;\;\;;
+}
